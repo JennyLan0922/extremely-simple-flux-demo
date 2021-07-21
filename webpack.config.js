@@ -5,10 +5,10 @@ var OpenBrowserPlugin = require('open-browser-webpack-plugin');
 module.exports = {
   entry: './index.jsx',
   output: {
-    filename: 'bundle.js'
+    filename: '[name]'
   },
   resolve: {
-    extensions: ['', '.js', '.jsx'],
+    extensions: ['.js', '.jsx'],
   },
   module: {
     loaders:[
